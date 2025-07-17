@@ -8,7 +8,6 @@ import LoginPage from "./Pages/LoginPage"
 import RegisterPage from "./Pages/RegisterPage"
 import DomainsPage from "./Pages/DomainsPage"
 import ComingSoonPage from "./Pages/ComingSoonPage"
-import MemberDashboard from "./Pages/MemberDashboard"
 
 function App() {
   return (
