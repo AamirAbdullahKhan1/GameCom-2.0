@@ -4,12 +4,12 @@ import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import { ArrowLeft, Calendar, Star, Zap, Heart, Bell, Mail, CheckCircle, Sparkles, Rocket, Users } from "lucide-react"
 
-import Navigation from "../components/Navigation"
-import TiltCard from "../components/ReactBits/TiltCard"
-import AnimatedButton from "../components/ReactBits/AnimatedButton"
-import GlowingCard from "../components/ReactBits/GlowingCard"
-import CountUpAnimation from "../components/ReactBits/CountUpAnimation"
-import FloatingElements from "../components/ReactBits/FloatingElements"
+import Navigation from "../Components/Navigation"
+import TiltCard from "../Components/ReactBits/TiltCard"
+import AnimatedButton from "../Components/ReactBits/AnimatedButton"
+import GlowingCard from "../Components/ReactBits/GlowingCard"
+import CountUpAnimation from "../Components/ReactBits/CountUpAnimation"
+import FloatingElements from "../Components/ReactBits/FloatingElements"
 
 const ComingSoonPage = () => {
   const [email, setEmail] = useState("")

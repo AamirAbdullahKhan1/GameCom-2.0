@@ -24,11 +24,11 @@ import {
   Heart,
 } from "lucide-react"
 
-import Navigation from "../components/Navigation"
-import TiltCard from "../components/ReactBits/TiltCard"
-import AnimatedButton from "../components/ReactBits/AnimatedButton"
-import GlowingCard from "../components/ReactBits/GlowingCard"
-import CountUpAnimation from "../components/ReactBits/CountUpAnimation"
+import Navigation from "../Components/Navigation"
+import TiltCard from "../Components/ReactBits/TiltCard"
+import AnimatedButton from "../Components/ReactBits/AnimatedButton"
+import GlowingCard from "../Components/ReactBits/GlowingCard"
+import CountUpAnimation from "../Components/ReactBits/CountUpAnimation"
 import EnhancedFloatingElements from "../Components/ReactBits/EnhancedFloatingElements"
 
 const DomainsPage = () => {

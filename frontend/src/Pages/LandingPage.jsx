@@ -30,18 +30,18 @@ import {
   MapPin,
 } from "lucide-react"
 
-import Navigation from "../components/Navigation"
+import Navigation from "../Components/Navigation"
 import AnimatedBackground from "../components/AnimatedBackground"
 import TestimonialCarousel from "../Components/TestimonialCarousel"
 import TeamSection from "../Components/TeamSection"
 
 // React Bits Components
-import CountUpAnimation from "../components/ReactBits/CountUpAnimation"
-import TiltCard from "../components/ReactBits/TiltCard"
-import AnimatedButton from "../components/ReactBits/AnimatedButton"
+import CountUpAnimation from "../Components/ReactBits/CountUpAnimation"
+import TiltCard from "../Components/ReactBits/TiltCard"
+import AnimatedButton from "../Components/ReactBits/AnimatedButton"
 import DecryptedText from "../Components/ReactBits/DecryptedText"
-import GlowingCard from "../components/ReactBits/GlowingCard"
-import FloatingElements from "../components/ReactBits/FloatingElements"
+import GlowingCard from "../Components/ReactBits/GlowingCard"
+import FloatingElements from "../Components/ReactBits/FloatingElements"
 
 const LandingPage = () => {
   const [currentProjectSlide, setCurrentProjectSlide] = useState(0)
