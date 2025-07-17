@@ -31,7 +31,6 @@ import {
 } from "lucide-react"
 
 import Navigation from "../Components/Navigation"
-import AnimatedBackground from "../components/AnimatedBackground"
 import TestimonialCarousel from "../Components/TestimonialCarousel"
 import TeamSection from "../Components/TeamSection"
 
