@@ -1,7 +1,4 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import DomainLeadDashboard from "./pages/DomainLeadDashboard"
-import PresidentDashboard from "./pages/PresidentDashboard"
-import AdminDashboard from "./pages/AdminDashboard"
 import EventRegistrationPage from "./Pages/EventRegistrationPage"
 import LandingPage from "./Pages/LandingPage"
 import LoginPage from "./Pages/LoginPage"
@@ -19,10 +16,6 @@ function App() {
             <Route path="/login" element= {<LoginPage/>} />
             <Route path="/register" element= {<RegisterPage/>} />
             <Route path="/domains" element= {<DomainsPage/>}/>
-            {/**<Route path="/dashboard/member" element={<MemberDashboard />} />
-            <Route path="/dashboard/domain-lead" element={<DomainLeadDashboard />} />
-            <Route path="/dashboard/president" element={<PresidentDashboard />} />
-            <Route path="/dashboard/admin" element={<AdminDashboard />} />**/}
             <Route path="/register-event" element={<EventRegistrationPage/>} />
             <Route path="/coming-soon" element={<ComingSoonPage />} />
           </Routes>
