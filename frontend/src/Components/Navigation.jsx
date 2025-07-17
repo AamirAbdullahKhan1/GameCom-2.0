@@ -48,13 +48,13 @@ const Navigation = () => {
                 
               </a>
             ))}
-            <Link
+            {/**<Link
               to="/login"
               className="relative bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-full hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 shadow-lg font-medium text-white overflow-hidden group"
             >
               <span className="relative uppercase z-10">Login</span>
               <span className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-            </Link>
+            </Link>**/}
           </div>
 
           {/* Mobile Menu Button */}
